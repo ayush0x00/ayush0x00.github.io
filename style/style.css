@@ -324,3 +324,17 @@ table tr td
 { background: #FBFBFB;
   color: #111;
   border-top: 1px solid #FFF;}
+
+  #logos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+#logos img {
+    width: 100px; /* Adjust the width of the logos */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 50%; /* Limit the maximum width of the logos to 50% of the viewport */
+}
